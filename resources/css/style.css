@@ -89,7 +89,6 @@ h4 {
 header {
    background-color: white;
    width: 100%;
-   display: block;
    position: fixed;
    z-index: 5;
 }
@@ -157,41 +156,41 @@ a {
 
 section {
    width: 100%;
+   margin-top: 7.9rem;
 }
 
-#container-main {
-   margin-top: 3rem;
-}
-
-#main {
+#container-1 {
    background-color: #049DBF;
    width: 100%;
    display: flex;
    flex-flow: row nowrap;
    align-items: center;
-   margin-top: 5rem;
-
 }
 
 #main-picture {
    background-image: url(/resources/images/banner.jpg);
    background-repeat: no-repeat;
-   background-position: top right;
+   background-position: right bottom;
+   background-size: cover;
    width: 60%;
    height: 60rem;
-   margin: 2rem;
+   margin: 3rem;
 }
 
 #main-info {
-   width: 50%;
-   margin: 2rem 2rem 2rem 0;
+   width: 40%;
+   margin: 3rem;
    display: flex;
    flex-flow: column nowrap;
    align-items: center;
 }
 
-#main-info a {
+#main-info h1, h2 {
+   margin-bottom: 3rem ;
+}
 
+#main-info a {
+   margin: 4rem auto 0;
 }
 
 #button {
