@@ -2,6 +2,18 @@ html {
    color: white;
    font-size: 10px;
    background-color: rgba(2, 101, 140, 0.2);
+   height: 100%;
+   display: flex;
+   flex-flow: column nowrap;
+}
+
+body {
+   width: 100%;
+   height: 100%;
+   margin: 0;
+   display: flex;
+   flex-flow: column nowrap;
+   text-align: center;
 }
 
 h1 {
@@ -73,12 +85,13 @@ h4 {
    width: 100%;
 }
 
+/*-**********- HEADER -**********-*/
 header {
    background-color: white;
    width: 100%;
-   display: flex;
-   flex-direction: row;
-   flex-wrap: nowrap;
+   display: block;
+   position: fixed;
+   z-index: 5;
 }
 
 .container {
@@ -87,12 +100,12 @@ header {
    align-items: center;
    width: 100%;
    height: 6.4rem;
-   margin: 0 3%;
-   border:  red solid 2px;
+   margin: 0;
 }
 
 #logo-container {
    width: 40%;
+   margin-left: 3%;
    display: flex;
    flex-flow: row nowrap;
    align-items: center;
@@ -125,6 +138,7 @@ header {
 
 .container nav {
    width: 60%;
+   margin-right: 3%;
    display: flex;
    flex-flow: row nowrap;
    justify-content: stretch;
@@ -140,10 +154,54 @@ a {
 
 
 /*-**********- SECTION -**********-*/
-.container h1 {
-   width: 50%;
+
+section {
+   width: 100%;
 }
 
+#container-main {
+   margin-top: 3rem;
+}
+
+#main {
+   background-color: #049DBF;
+   width: 100%;
+   display: flex;
+   flex-flow: row nowrap;
+   align-items: center;
+   margin-top: 5rem;
+
+}
+
+#main-picture {
+   background-image: url(/resources/images/banner.jpg);
+   background-repeat: no-repeat;
+   background-position: top right;
+   width: 60%;
+   height: 60rem;
+   margin: 2rem;
+}
+
+#main-info {
+   width: 50%;
+   margin: 2rem 2rem 2rem 0;
+   display: flex;
+   flex-flow: column nowrap;
+   align-items: center;
+}
+
+#main-info a {
+
+}
+
+#button {
+   font-family: "Spectral", serif;
+   color: white;
+   background-color: #03658C;
+   padding: 1.5rem 8rem;
+   border-radius: 0.5rem;
+
+}
 
 
 /*-**********- FOOTER -**********-*/
