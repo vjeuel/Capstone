@@ -264,7 +264,6 @@ section {
    align-items: center;
    justify-content: space-between;
    padding: 1.6rem;
-
 }
 
 .boxes-3 {
@@ -272,11 +271,10 @@ section {
    display: flex;
    flex-flow: row nowrap;
    align-items: center;
+   flex: 1;
    margin-bottom: 1.6rem;
 
 }
-
-
 
 .pics-1 {
    background-image: url(/resources/images/information-orientation.jpg);
@@ -294,7 +292,6 @@ section {
    background-size: cover;
    width: 35%;
    height: 15rem;
-
 }
 
 .info-box {
@@ -317,6 +314,7 @@ section {
 }
 
 
+/*-**********- SECTION 3 -**********-*/
 
 
 
