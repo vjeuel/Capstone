@@ -509,8 +509,6 @@ section {
       width: 90%;
       flex-direction: column;
       align-items: center;
-
-      border:  red solid 2px;
    }
 
    .courses-little-boxes {
@@ -519,8 +517,6 @@ section {
       margin: 0;
       margin-bottom: 0.8rem;
       padding: 0;
-
-      border: solid orange 2px;
    }
    
    .courses-pics {
